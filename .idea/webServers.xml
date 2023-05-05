@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6f25ea7c-fbc6-419d-9eb8-e602600242c3" name="OutNet">
+        <fileTransfer accessType="SFTP" host="121.4.88.75" port="7100" sshConfigId="0c1f23ca-0aa8-41a7-a348-b680374c280b" sshConfig="zhonglab@121.4.88.75:7100 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
