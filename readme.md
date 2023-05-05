@@ -1,21 +1,21 @@
-前言：
+Preface:
 ===========================
-这是自己的那个小论文的代码，应该就是要用这个code了，目前，我对这篇文章想要是用的架构是图表示学习+transformer+mlp.  
+This is the code of my own small paper, should be to use this code, at present, I want to use the architecture of this article is the graph expression learning +transformer+mlp.
 
-数据集：
+Data set:
 ===========================
-miRNA相似性数据，disease相似性数据，protein相似性数据，m-d关联对，m-p关联对，p-d关联对
-label:  [1,0]:表示miRNA和疾病是相互关联；[0,1]表示不相关
+miRNA similarity data, disease similarity data, protein similarity data, m-d association pairs, m-p association pairs, p-d association pairs
+label: [1,0]: indicates that miRNA and disease are correlated; [0,1] indicates no correlation
 case study:
     50:Breast Neoplasms
     236:Lung Neoplasms    
     240:Lymphoma
     
-评价指标：
+Evaluation index:
 ==========================
-- 准确率（acc）:分类正确的样本占总样本个数的比例。
-- 精确率（precision）:模型预测为正的样本中实际也为正，占被预测为正的样本的比例。
-- 召回率（Recall）:实际为正的样本，被预测为正的样本所占实际为正的比例。最好的是1，最差的是0.
-- F1 Score：是精确率(pre)和召回率(recall)的调和平均值。F1 score越高，则模型越稳健。
-- ROC曲线：越接近左上角，该分类器的性能越好。
-- AUC：=1，则是完美分类器；1>auc>0.5:优于随机猜测；妥善设定阈值，有预测价值；=0.5：跟随机猜测一样，没有预测价值。
+- Accuracy (acc) : the proportion of correctly classified samples in the total number of samples.
+- precision: The proportion of samples predicted to be positive by the model to those predicted to be positive.
+- Recall: samples that are actually positive, and the proportion of samples predicted to be positive that are actually      positive. The best is 1, the worst is 0.
+- F1 Score: is the harmonic average of accuracy rate (pre) and recall. The higher the F1 score, the more robust the model.
+- ROC curve: The closer to the top left corner, the better the performance of the classifier.
+- AUC: =1, is a perfect classifier; 1>auc>0.5: better than random guess; Properly set the threshold value, it has predictive value; =0.5: No predictive value, just like a random guess.
